@@ -73,3 +73,12 @@ h1
     font-style: normal;
     font-weight:1000px;
 }
+
+.card
+{
+    transition: all 0.5s;
+}
+.card:hover
+{
+    transform:translate(-20px, -20px);
+}
