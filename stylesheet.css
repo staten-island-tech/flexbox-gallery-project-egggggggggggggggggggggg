@@ -50,6 +50,7 @@ body
     border:10px black;
     margin-bottom:50px;
     border-radius: 75px;
+    transition: all 0.5s;
 }
 .card_title
 {
@@ -74,11 +75,29 @@ h1
     font-weight:1000px;
 }
 
-.card
-{
-    transition: all 0.5s;
-}
+
 .card:hover
 {
     transform:translate(-20px, -20px);
+}
+#plant
+{
+
+}
+.card:active
+{
+    transform:translate(10px,10px);
+}
+
+@keyframes particle1
+{
+    0%  {}
+    25% {}
+    50% {}
+    75% {}
+    100%{}
+}
+#fire_type:active
+{
+    animation: particle1 2s infinite;
 }
