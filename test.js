@@ -1,4 +1,4 @@
-const container = document.querySelector(".particle-container");
+const container = document.querySelector(".not_a_particle");
 
 function createParticle() {
   const particle = document.createElement("div");
@@ -32,4 +32,4 @@ function createParticle() {
 }
 
 // Create particles at intervals
-setInterval(createParticle, 300); // Create a new particle every 300ms
+setInterval(createParticle, Math.random() * 1000); // Create a new particle every 300ms
