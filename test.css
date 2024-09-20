@@ -8,9 +8,20 @@
   
   .particle {
     position: absolute;
-    width: 10px;
-    height: 10px;
-    background: white;
-    border-radius: 50%;
-    opacity: 0; /* Start hidden */
+    width: 50px; /* Set the desired width */
+    height: 50px; /* Set the desired height */
+    background-image: url('image/fire.png'); /* Replace with your image path */
+    background-size: cover; /* Make the image cover the entire div */
+    pointer-events: none; /* Prevent mouse events */
   }
+
+.not_a_particle
+{
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  background-color: green;
+  padding:100px;
+  height:100px;
+  length:100px;
+}
