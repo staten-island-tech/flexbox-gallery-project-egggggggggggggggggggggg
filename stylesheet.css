@@ -85,12 +85,15 @@ h1
 {
     transform:translate(5px,5px);
 }
-
-@keyframes particle1
+#fire_type:hover
 {
-    0%  {}
-    25% {}
-    50% {}
-    75% {}
-    100%{}
+    transform:scale(0.5)
+}
+#plant_type:hover
+{
+    transform:scale(2.0)
+}
+#water_type:hover
+{
+    transform:scale(1.2523232325234335435453645464646456456464654646474768768)
 }
