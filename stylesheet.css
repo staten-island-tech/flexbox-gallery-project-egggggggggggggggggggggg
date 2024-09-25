@@ -26,8 +26,7 @@ body
 
 .card_image
 {
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
     display:block;
     width:100%;
 }
@@ -36,8 +35,7 @@ body
 {
     width:23%;
     box-shadow: 10px 10px 10px black;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     background-color: bisque;
     border:10px black;
     margin-bottom:50px;
@@ -48,11 +46,11 @@ body
 {
     text-align: center;
     margin:0 auto;
-    padding: 10px;
-    font-size: 30px;
+    padding: 1rem;
+    font-size: 2rem;
     font-family: "Handjet", sans-serif;
     font-style: normal;
-    font-weight:1000px;
+    font-weight:900px;
 }
 .card:hover
 {
@@ -60,25 +58,25 @@ body
 }
 h1
 {
-    margin-left: auto;
     align-items: center;
-    margin-right: auto;
     text-align: center;
     display: flex;
-    flex-wrap:wrap
-    width:30%;
-    font-size:150px;
+    flex-wrap:wrap;
+    font-size:10rem;
     font-family: "Handjet", sans-serif;
-    animation-name: header_test 5s;
-
 }
 .header-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh; /* Full viewport height */
+    height: 40vh;
 }
-
+h1:hover
+{
+    animation-name: header_test;
+    animation-duration:3s;
+    animation-timing-function: ease-in-out;
+}
 #fire_type:hover
 {
     transform:scale(0.5)
@@ -111,7 +109,6 @@ h1
     {
         width:70%
     }
-
 }
 @keyframes header_test
 {
